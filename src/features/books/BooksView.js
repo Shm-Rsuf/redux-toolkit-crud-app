@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 const BooksView = () => {
   const books = useSelector((state) => state.bookReducer.books);
-  // console.log(books);
+
   return (
     <div>
       <h2>List Of Books</h2>
